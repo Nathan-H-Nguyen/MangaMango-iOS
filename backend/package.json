@@ -1,0 +1,28 @@
+{
+  "name": "mangamango-backend",
+  "version": "1.0.0",
+  "description": "Backend API for MangaMango iOS app using Node.js, Express, and PostgreSQL",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "keywords": [
+    "manga",
+    "api",
+    "backend",
+    "nodejs",
+    "express",
+    "postgresql"
+  ],
+  "author": "Nathan Nguyen",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
