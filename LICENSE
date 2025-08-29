@@ -19,3 +19,13 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+---
+
+**DISCLAIMER**  
+This project is for **educational and personal use only**. It uses a self-hosted instance of the [MangaHook API](https://github.com/kiraaziz/mangahook-api), which scrapes manga data from publicly available third-party websites.
+
+Some metadata and content (e.g., manga titles, descriptions, chapter lists, and images) may be cached in a private PostgreSQL database for performance and offline access.
+
+I do not claim ownership of any manga content. All intellectual property belongs to their respective copyright holders.  
+This project is not intended for commercial use, public distribution, or to infringe on the rights of any content owners.
