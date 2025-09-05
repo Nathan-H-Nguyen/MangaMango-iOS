@@ -1,0 +1,16 @@
+services:
+  db:
+    image: postgres
+    container_name: mangamango-db
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${PG_DB}
+      POSTGRES_USER: ${PG_USER}
+      POSTGRES_PASSWORD: ${PG_PASSWORD}
+    ports:
+      - "${PG_PORT}:5432"         # host:container
+    volumes:
+      - db_data:/var/lib/postgresql/data
+
+volumes:
+  db_data:
